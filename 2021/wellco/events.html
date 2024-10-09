@@ -1,0 +1,814 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Pathfinder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description website">
+    <meta name="author" content="Maksym Blank">
+    <meta name="keywords" content="website, with, meta, tags">
+    <meta name="robots" content="noindex, follow">
+    <meta name="revisit-after" content="5 month">
+    <meta name="image" content="http://mywebsite.com/image.jpg">
+    <meta name="og:title" content="Title website">
+    <meta name="og:description" content="Description website">
+    <meta name="og:image" content="http://mywebsite.com/image.jpg">
+    <meta name="og:site_name" content="My Website">
+    <meta name="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Title website">
+    <meta name="twitter:description" content="Description website">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/magnifying-glass.png">
+    <!-- Css -->
+    <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/slick.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet">
+    <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" alt="preloader">
+    </div>
+    <!-- Preloader End -->
+    <!-- Mobile Menu Start -->
+    <aside class="aside_bar aside_bar_left aside_mobile">
+        <!-- logo -->
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo png.png" alt="logo">
+        </a>
+        <!-- logo -->
+        <!-- Menu -->
+        <ul class="main-menu">
+            <li class="menu-item menu-item-has-children">
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="about.html">About Us</a>
+            </li>
+            <!-- <li class="menu-item menu-item-has-children">
+                <a href="services.html">Services</a>
+            </li> -->
+            <li class="menu-item menu-item-has-children">
+                <a href="events.html">Vastu Consultants</a>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              
+            </li>
+            <li class="menu-item">
+                <a href="contact.html">Contacts</a>
+            </li>
+        </ul>
+        <!-- Menu -->
+    </aside>
+    <div class="aside-overlay trigger-left"></div>
+    <!-- Mobile Menu End -->
+    <!-- Header Start -->
+    <header class="header header-3">
+
+        <div class="nav_sec">
+            <div class="container">
+                <!-- inner -->
+                <div class="nav_warp">
+                    <nav>
+                        <!-- logo start -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/Pathfinder.png" alt="logo" class="image-fit" id="path" .>
+                            </a>
+                        </div>
+                        <!-- logo end -->
+                        <!-- Navigation Start -->
+                        <ul class="main-menu">
+                            <li class="menu-item menu-item-has-children">
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <!-- <li class="menu-item menu-item-has-children">
+                                <a href="services.html">Services</a>
+                            </li> -->
+                            <li class="menu-item menu-item-has-children">
+                                <a href="events.html">Vastu Consultants</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                              
+                            </li>
+                            <li class="menu-item">
+                                <a href="contact.html">Contacts</a>
+                            </li>
+                        </ul>
+                        <!-- Navigation Ens -->
+                        <!-- Head Actions -->
+                        <div class="head_actions">
+                            <a href="contact.html" class="thm-btn bg-thm-color-three thm-color-three-shadow btn-rectangle">Enroll Now <i class="fal fa-chevron-right ml-2"></i></a>
+                            <button type="button" class="head_trigger mobile_trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                        <!-- Head Actions -->
+                    </nav>
+                </div>
+                <!-- inner -->
+            </div>
+        </div>
+        
+    </header>
+    <!-- Header End -->
+    <!-- Subheader Start -->
+    <div class="subheader relative z-1" style="background-image: url(assets/images/Vastu\ Consultant.jpeg);">
+        <div class="container relative z-1">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="page_title">Vastu</h1>
+                    <div class="page_breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <!-- <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Events</li>
+                            </ol> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/images/elements/element_19.png" alt="element" class="element_1 slideRightTwo">
+            <img src="assets/images/elements/element_10.png" alt="element" class="element_2 zoom-fade">
+            <img src="assets/images/elements/element_20.png" alt="element" class="element_3 rotate_elem">
+            <img src="assets/images/elements/element_21.png" alt="element" class="element_4 rotate_elem">
+        </div>
+    </div>
+    <!-- Subheader End -->
+
+<!-- start section -->
+  <div class="container my-5 p-4 bg-white rounded shadow-sm">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <h4 class="fw-bold"><span class="text-danger"></span> Quick Vastu Consultation – Online Vastu Service</h4>
+                <p class="text-muted fst-italic text-center">Opinion & evaluation of a new or existing property</p>
+</div>              
+            <div class="col-lg-7">  
+                <h6 class="fw-bold">Buying a new home or office? Do you need an evaluation of existing premises? Vastu Services</h6>
+                <p>
+                    Choosing the right property that supports your future life goals is a must before you sign a paper on the dotted line. Even existing properties can be evaluated under virtual consultation. Many of our out-of-town clients schedule a <strong>Virtual Consultation</strong> with <a href="#" class="text-primary">Nitien Parmar</a>, Chief Vastu Consultant from Vastuplus International, who has been in practice for over three decades.
+                </p>
+                <a href="#" class="btn btn-outline-danger mt-3">Get More Information</a>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0 mt-lg-0">
+                <img src="assets/images/about/about-img1.webp" alt="Vastu Consultation Room" class=" object-fit-cover rounded">
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+
+<!-- start section -->
+  <div class="container my-5 p-4 bg-white rounded shadow-sm">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <h4 class="fw-bold"><span class="text-danger"></span> Quick Vastu Consultation – Online Vastu Service</h4>
+                <p class="text-muted fst-italic text-center">Opinion & evaluation of a new or existing property</p>
+</div>         
+            <div class="col-lg-4 text-center mt-0 mt-lg-0">
+                <img src="assets/images/about/about-img2.webp" alt="Vastu Consultation Room" class=" object-fit-cover rounded">
+            </div>     
+            <div class="col-lg-7">  
+                <h6 class="fw-bold ">Buying a new home or office? Do you need an evaluation of existing premises? Vastu Services</h6>
+                <p>
+                    Choosing the right property that supports your future life goals is a must before you sign a paper on the dotted line. Even existing properties can be evaluated under virtual consultation. Many of our out-of-town clients schedule a <strong>Virtual Consultation</strong> with <a href="#" class="text-primary">Nitien Parmar</a>, Chief Vastu Consultant from Vastuplus International, who has been in practice for over three decades.
+                </p>
+                <a href="#" class="btn btn-outline-danger mt-3">Get More Information</a>
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+
+<!-- start section -->
+  <div class="container my-5 p-4 bg-white rounded shadow-sm">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <h4 class="fw-bold"><span class="text-danger"></span> Quick Vastu Consultation – Online Vastu Service</h4>
+                <p class="text-muted fst-italic text-center">Opinion & evaluation of a new or existing property</p>
+</div>              
+            <div class="col-lg-7">  
+                <h6 class="fw-bold">Buying a new home or office? Do you need an evaluation of existing premises? Vastu Services</h6>
+                <p>
+                    Choosing the right property that supports your future life goals is a must before you sign a paper on the dotted line. Even existing properties can be evaluated under virtual consultation. Many of our out-of-town clients schedule a <strong>Virtual Consultation</strong> with <a href="#" class="text-primary">Nitien Parmar</a>, Chief Vastu Consultant from Vastuplus International, who has been in practice for over three decades.
+                </p>
+                <a href="#" class="btn btn-outline-danger mt-3">Get More Information</a>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0 mt-lg-0">
+                <img src="assets/images/about/about-img3.jpg" alt="Vastu Consultation Room" class=" object-fit-cover rounded">
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+
+<!-- start section -->
+  <div class="container my-5 p-4 bg-white rounded shadow-sm">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <h4 class="fw-bold"><span class="text-danger"></span> Quick Vastu Consultation – Online Vastu Service</h4>
+                <p class="text-muted fst-italic text-center">Opinion & evaluation of a new or existing property</p>
+</div>         
+            <div class="col-lg-4 text-center mt-0 mt-lg-0">
+                <img src="assets/images/about/about-img4.webp" alt="Vastu Consultation Room" class=" object-fit-cover rounded">
+            </div>     
+            <div class="col-lg-7">  
+                <h6 class="fw-bold ">Buying a new home or office? Do you need an evaluation of existing premises? Vastu Services</h6>
+                <p>
+                    Choosing the right property that supports your future life goals is a must before you sign a paper on the dotted line. Even existing properties can be evaluated under virtual consultation. Many of our out-of-town clients schedule a <strong>Virtual Consultation</strong> with <a href="#" class="text-primary">Nitien Parmar</a>, Chief Vastu Consultant from Vastuplus International, who has been in practice for over three decades.
+                </p>
+                <a href="#" class="btn btn-outline-danger mt-3">Get More Information</a>
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+
+    <section class="section-padding bg-thm-color-two-light">
+        <div class="container">
+            <!-- <div class="page_bar">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-left wow fadeInLeft">
+                        <p class="thm-font">We found 12 events available for you</p>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-right">
+                        <div class="bar_select mb-xl-30 relative wow fadeInRight">
+                            <select>
+                                <option>Event Type</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                            <i class="fal fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            <div class="row">
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInDown" data-wow-delay=".10ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/1.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">Free</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <!-- <h5 class="event_title">
+                                    <a href="events.html#">Education Workshop</a>
+                                </h5> -->
+                                 <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p> 
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two "></a>    -->
+                                <!-- <i class="fal fa-chevron-right font-weight-bold"></i> --> 
+                                <!-- btn-rectangle btn-small -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".20ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/2.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">$59</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <!-- <h5 class="event_title">
+                                    <a href="events.html#">Physical Exercises</a>
+                                </h5> -->
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small">
+                                    <i class="fal fa-chevron-right font-weight-bold"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInDown" data-wow-delay=".30ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/3.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">Free</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <h5 class="event_title">
+                                    <!-- <a href="events.html#">Mordern Lifestyle</a>
+                                </h5> -->
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".40ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/4.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">$99</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <h5 class="event_title">
+                                    <!-- <a href="events.html#">Business Consulting</a> -->
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block fadeInDown" data-wow-delay=".50ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/5.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">$59</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <h5 class="event_title">
+                                    <!-- <a href="events.html#">Fashion Design, Art</a> -->
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".60ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/6.jpg" alt="img" class="image-fit">
+                            <!-- <span class="tag_badge style_3 bg-thm-color-four">Free</span> -->
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <!-- <span class="date thm-color-two font-weight-bold">25 May 2021</span> -->
+                                <h5 class="event_title">
+                                    <!-- <a href="events.html#">Morder Lifestyle</a> -->
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <!-- <i class="far fa-map-marker-alt"></i> -->
+                                    </span>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <!-- <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInDown" data-wow-delay=".70ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/7.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$99</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Fashion Lifestyle</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Mexico City, Mexico
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".80ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/8.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$59</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Food Workshop</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Buenos, Argentina
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInDown" data-wow-delay=".90ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/9.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$39</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Films Conference</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Nairobi, Kenya
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".100ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/10.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$99</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Fashion Lifestyle</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Mexico City, Mexico
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInDown" data-wow-delay=".110ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/11.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$59</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Food Workshop</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Buenos, Argentina
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+                <!-- Block -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="event_block wow fadeInUp" data-wow-delay=".120ms">
+                        <div class="event_img relative">
+                            <img src="assets/images/event/12.jpg" alt="img" class="image-fit">
+                            <span class="tag_badge style_3 bg-thm-color-four">$39</span>
+                        </div>
+                        <div class="event_caption">
+                            <div class="event_text">
+                                <span class="date thm-color-two font-weight-bold">25 May 2021</span>
+                                <h5 class="event_title">
+                                    <a href="events.html#">Films Conference</a>
+                                </h5>
+                                <p>
+                                    <span class="thm-color-two mr-2">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </span>
+                                    Nairobi, Kenya
+                                </p>
+                            </div>
+                            <div class="event_btn">
+                                <a href="events.html#" class="thm-btn bg-thm-color-two-light thm-color-two btn-rectangle btn-small"><i class="fal fa-chevron-right font-weight-bold"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Block -->
+            </div>
+            <!-- Pagination -->
+            <!-- <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a href="events.html#" class="page-link">
+                            <i class="fal fa-chevron-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a href="events.html#" class="page-link">01</a>
+                    </li>
+                    <li class="page-item active">
+                        <a href="events.html#" class="page-link">02</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="events.html#" class="page-link">03</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="events.html#" class="page-link">
+                            <i class="fal fa-chevron-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav> -->
+            <!-- Pagination -->
+        </div>
+    </section>
+    <!-- Sponsors Start -->
+    <!-- <div class="section-padding">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/sponsors/1.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/sponsors/2.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/sponsors/3.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/sponsors/4.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/sponsors/5.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Sponsors End -->
+    <!-- Cta Start -->
+    <div class="cta_box style_2">
+        <div class="container relative z-2">
+            <div class="bg-thm-color-two cta_box_inner z-2 mb-negative">
+                <img src="assets/images/elements/shape.png" alt="shape" class="shape_1 zoom-fade">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="text_block wow fadeInLeft">
+                            <div class="section-title left-align white">
+                                <p class="subtitle">
+                                    <i class="fal fa-book"></i>
+                                    Our Professionals
+                                </p>
+                                <h3 class="title">Do You Want to Transform Your Life For Better ?</h3>
+                                <a href="contact.html" class="thm-btn bg-thm-color-three thm-color-three-shadow btn-rounded">Contact Us <i class="fal fa-chevron-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="image_box relative z-1 wow fadeInRight">
+                            <img src="assets/images/elements/square_shape.png" alt="shape" class="shape_2 rotate_elem">
+                            <!-- <img src="assets/images/cta_image.png" alt="img" class="image-fit"> -->
+                            <div class="arrows slideRight">
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="arrows to_up slideTop">
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+                <div class="arrow"></div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Cta End -->
+    <!-- Footer Start -->
+ <!-- Footer Start -->
+ <footer class="footer">
+    <div class="container">
+        <div class="footer_top section-padding">
+            <div class="row footer-flex">
+                <div class="col-lg-3 col-md-6">
+                    <div class="ft_widget ft_about wow fadeInDown">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/Pathfinder.png" alt="logo" class="image-fit">
+                        </a>
+                        <ul class="info">
+                            <li>
+                                <a>Shop no 3, Kamal CHS, Plot no 45, Seawoods West, Sector 44, Seawoods, W, Navi Mumbai, Maharashtra 400706</a>
+                            </li>
+                            <li>
+                                <a href="tel:+01234567899">92222 85780</a>
+                            </li>
+                            <li>
+                                <a href="mailto:example@example.com"> pathfinderguide@gmail.com.</a>
+                            </li>
+                        </ul>
+                        <ul class="social">
+                            <li>
+                                <a href="index.html#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="ft_widget ft_menu wow fadeInUp">
+                        <h6 class="ft-title">Our Coach</h6>
+                        <ul>
+                            <li>
+                                <a href="index.html#">Basic Life Coach</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Advance Helath Coach</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Advance Business Coach</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Basic Learn English</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Web Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ft_widget ft_menu wow fadeInDown">
+                        <h6 class="ft-title">About Us</h6>
+                        <ul>
+                            <li>
+                                <a href="index.html#">Latest Courses</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Mission & Vision</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Our Approach</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Exclusive Advisors</a>
+                            </li>
+                            <li>
+                                <a href="index.html#">Join a Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <div class="ft_widget ft_apps wow fadeInUp">
+                        <h6 class="ft-title">Apps Download</h6>
+                        <p class="mb-xl-20">Sed ut perspici unde omnis iste natus error sit voluptatem accus</p>
+                        <a href="index.html#" class="app_img">
+                            <img src="assets/images/google_store.jpg" alt="img">
+                        </a>
+                        <a href="index.html#" class="app_img">
+                            <img src="assets/images/apple_store.jpg" alt="img">
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="footer_bottom">
+            <p class="mb-0">
+                © 2024 <a href="https://aneeverse.com/en/" target="_blank">Aneeverse</a>. All Rights Reserved, Design By Aneeverse
+            </p>
+            
+        </div> -->
+    </div>
+</footer>
+    <!-- Footer End -->
+    <a href="events.html#" data-target="html" class="back-to-top ft-sticky">
+        <i class="fal fa-long-arrow-up"></i>
+    </a>
+    <!-- Scripts -->
+    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/imagesloaded.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+    <script src="assets/js/plugins/jquery.inview.min.js"></script>
+    <script src="assets/js/plugins/jquery.easypiechart.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
